@@ -13,8 +13,8 @@ function Main() {
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/maxiatisme-wq" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/maximiliano-atisme-46b6b829b/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Maximiliano Atisme</h1>
           <p>Computer Engineering Student</p>
