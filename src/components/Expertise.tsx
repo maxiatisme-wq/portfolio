@@ -1,4 +1,5 @@
 import React from "react";
+import { SiC } from 'react-icons/si';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 const labelsFirst = [
