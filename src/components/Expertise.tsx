@@ -6,17 +6,8 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "C Programming",
+    "Python"
 ];
 
 const labelsSecond = [
@@ -48,11 +39,9 @@ function Expertise() {
             <h1>About Me</h1>
             <div className="skills-grid single-column">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I am a currently a Computer Engineering undergraduate student at Brigham Young University. I have a passion for circuit design, hardware prototyping, and embedded systems. I enjoy bridging the gap between theoretical calculations and hands-on benchtop implementation to turn concepts into functioning physical hardware.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Technical Skills:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
